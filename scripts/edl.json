@@ -1,0 +1,158 @@
+{
+  "source": "/root/raw-footage/Mentah1.MOV",
+  "source_duration": 59.2413125,
+  "result_duration": 52.796,
+  "saved": 6.445,
+  "min_silence": 0.3,
+  "keep_silence": 0.1,
+  "hook_moved": {
+    "src": [
+      13.86,
+      15.9
+    ],
+    "text": "setara dengan 5 kolam galon"
+  },
+  "segments": [
+    {
+      "i": 0,
+      "src_start": 13.86,
+      "src_end": 15.9,
+      "out_start": 0.0,
+      "out_end": 2.04,
+      "dur": 2.04,
+      "label": "HOOK (dipindah ke depan)"
+    },
+    {
+      "i": 1,
+      "src_start": 0.0,
+      "src_end": 3.426,
+      "out_start": 2.04,
+      "out_end": 5.466,
+      "dur": 3.426,
+      "label": ""
+    },
+    {
+      "i": 2,
+      "src_start": 3.67,
+      "src_end": 5.285,
+      "out_start": 5.466,
+      "out_end": 7.081,
+      "dur": 1.615,
+      "label": ""
+    },
+    {
+      "i": 3,
+      "src_start": 6.006,
+      "src_end": 9.91,
+      "out_start": 7.081,
+      "out_end": 10.985,
+      "dur": 3.904,
+      "label": ""
+    },
+    {
+      "i": 4,
+      "src_start": 10.725,
+      "src_end": 13.86,
+      "out_start": 10.985,
+      "out_end": 14.121,
+      "dur": 3.135,
+      "label": ""
+    },
+    {
+      "i": 5,
+      "src_start": 15.9,
+      "src_end": 20.257,
+      "out_start": 14.121,
+      "out_end": 18.478,
+      "dur": 4.357,
+      "label": ""
+    },
+    {
+      "i": 6,
+      "src_start": 20.54,
+      "src_end": 22.73,
+      "out_start": 18.478,
+      "out_end": 20.668,
+      "dur": 2.19,
+      "label": ""
+    },
+    {
+      "i": 7,
+      "src_start": 23.27,
+      "src_end": 28.64,
+      "out_start": 20.668,
+      "out_end": 26.038,
+      "dur": 5.37,
+      "label": ""
+    },
+    {
+      "i": 8,
+      "src_start": 29.37,
+      "src_end": 31.012,
+      "out_start": 26.038,
+      "out_end": 27.681,
+      "dur": 1.643,
+      "label": ""
+    },
+    {
+      "i": 9,
+      "src_start": 31.672,
+      "src_end": 41.353,
+      "out_start": 27.681,
+      "out_end": 37.362,
+      "dur": 9.681,
+      "label": ""
+    },
+    {
+      "i": 10,
+      "src_start": 42.0,
+      "src_end": 48.989,
+      "out_start": 37.362,
+      "out_end": 44.351,
+      "dur": 6.989,
+      "label": ""
+    },
+    {
+      "i": 11,
+      "src_start": 49.407,
+      "src_end": 50.732,
+      "out_start": 44.351,
+      "out_end": 45.677,
+      "dur": 1.326,
+      "label": ""
+    },
+    {
+      "i": 12,
+      "src_start": 51.047,
+      "src_end": 54.945,
+      "out_start": 45.677,
+      "out_end": 49.575,
+      "dur": 3.898,
+      "label": ""
+    },
+    {
+      "i": 13,
+      "src_start": 55.499,
+      "src_end": 58.72,
+      "out_start": 49.575,
+      "out_end": 52.796,
+      "dur": 3.221,
+      "label": ""
+    }
+  ],
+  "junctions": [
+    2.04,
+    5.466,
+    7.081,
+    10.985,
+    14.121,
+    18.478,
+    20.668,
+    26.038,
+    27.681,
+    37.362,
+    44.351,
+    45.677,
+    49.575
+  ]
+}

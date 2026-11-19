@@ -1,0 +1,87 @@
+{
+ "ease": "ease-in-out-cubic",
+ "note": "t = titik sambungan EDL. Transisi MULAI tepat di sambungan, 0.5s. Level dipertahankan sepanjang kalimat.",
+ "keys": [
+  {
+   "t": 0.0,
+   "dur": 0.0,
+   "z": 1.25,
+   "cx": 480,
+   "cy": 820,
+   "why": "HOOK - punch-in, 'setara 5 kolam galon'"
+  },
+  {
+   "t": 2.04,
+   "dur": 0.5,
+   "z": 1.0,
+   "cx": 540,
+   "cy": 960,
+   "why": "INTRO - wide, establish lokasi + deretan kolam"
+  },
+  {
+   "t": 10.98,
+   "dur": 0.5,
+   "z": 1.25,
+   "cx": 540,
+   "cy": 860,
+   "why": "P1 SPEC - sebut ukuran D60 T45 + 50 bibit"
+  },
+  {
+   "t": 14.12,
+   "dur": 0.5,
+   "z": 1.0,
+   "cx": 540,
+   "cy": 960,
+   "why": "P1 BENEFIT - gestur lebar (rawat/kuras/panen)"
+  },
+  {
+   "t": 20.67,
+   "dur": 0.5,
+   "z": 1.25,
+   "cx": 540,
+   "cy": 880,
+   "why": "P2 - sebut ukuran D60 T60"
+  },
+  {
+   "t": 26.04,
+   "dur": 0.5,
+   "z": 1.0,
+   "cx": 540,
+   "cy": 960,
+   "why": "OBJQ - pertanyaan kanibalisme, beri ruang"
+  },
+  {
+   "t": 27.68,
+   "dur": 0.5,
+   "z": 1.5,
+   "cx": 560,
+   "cy": 920,
+   "why": "JAWABAN - detail 0% + PF1000, talent diam di tengah"
+  },
+  {
+   "t": 37.36,
+   "dur": 0.5,
+   "z": 1.25,
+   "cx": 540,
+   "cy": 900,
+   "why": "protein 39% + CTA1"
+  },
+  {
+   "t": 44.35,
+   "dur": 0.5,
+   "z": 1.25,
+   "cx": 620,
+   "cy": 880,
+   "why": "P3 - ukuran terbesar D1m; lalu jadi close-up kolam besar saat kamera pan"
+  },
+  {
+   "t": 49.58,
+   "dur": 0.5,
+   "z": 1.0,
+   "cx": 540,
+   "cy": 960,
+   "why": "CTA2 - WIDE. Sumber: talent keluar frame 48.2-51.0s (kamera pan ke kolam besar); z1.0 agar dia utuh saat masuk lagi"
+  }
+ ],
+ "source_note": "Talent keluar frame 48.2-51.0s di rekaman asli (kamera pan). Tidak ada zoom yang bisa memperbaiki itu."
+}

@@ -1,0 +1,15 @@
+[
+ {"id":"hook",    "start":0.00,  "end":2.04,  "text":"Setara dengan 5 kolam galon"},
+ {"id":"intro",   "start":2.04,  "end":10.32, "text":"Nah, pemula yang ingin belajar budidaya... kolam-kolam kami"},
+ {"id":"p1spec",  "start":10.32, "end":14.10, "text":"Pertama, diameter 60 tinggi 45 cm, kapasitas 50 bibit lele"},
+ {"id":"p1ben",   "start":14.10, "end":18.30, "text":"Lebih praktis, ngerawatnya/ngurasnya/panennya sekali doang"},
+ {"id":"p1eq",    "start":18.30, "end":20.66, "text":"Setara dengan merawat 5 kolam galon"},
+ {"id":"p2",      "start":20.66, "end":25.92, "text":"Mau diameter 60 tinggi 60 cm, isi 60 lele sampai panen tanpa sortir"},
+ {"id":"objq",    "start":25.92, "end":27.64, "text":"Bang, nanti terjadi kanibalisme? Enggak"},
+ {"id":"obj0",    "start":27.64, "end":32.98, "text":"Tingkat kanibalisme bisa ditekan... bisa dijadikan 0%"},
+ {"id":"pf1000",  "start":32.98, "end":36.32, "text":"Asal pakan bulan pertama menggunakan PF1000"},
+ {"id":"protein", "start":36.32, "end":39.48, "text":"Butiran lebih kecil, protein lebih tinggi 39%"},
+ {"id":"cta1",    "start":39.48, "end":44.06, "text":"Teman-teman bisa check out untuk skala rumahan"},
+ {"id":"p3",      "start":44.06, "end":49.64, "text":"Diameter 1 tinggi 60 cm, kapasitas 200 bibit lele"},
+ {"id":"cta2",    "start":49.64, "end":52.90, "text":"Check out di toko kami, ready stock. Check out sekarang"}
+]
