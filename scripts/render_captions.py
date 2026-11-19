@@ -8,13 +8,18 @@ import json, os, subprocess, sys, glob
 from PIL import Image, ImageDraw, ImageFont
 
 W, H = 1080, 1920
-SAFE_T, SAFE_B, SAFE_X = 220, 1470, 35
-BAND_BOT = 1450           # baris caption terbawah
+# Safe zone SHOPEE VIDEO (paling ketat; aman juga utk TikTok/Reels).
+# Diukur dari screenshot 1206x2622, video cover-fit -> koordinat 1080x1920:
+#   kartu produk mulai y=1384 | kolom ikon kanan x>=852 | sisi kepotong 52px
+SAFE_T, SAFE_B, SAFE_X = 220, 1384, 70
+BAND_BOT = 1355           # baris caption terbawah - DI ATAS kartu produk
+ICON_X = 852              # kolom aksi kanan, teks tidak boleh melewatinya
+CENTER_X = (SAFE_X + ICON_X) // 2      # 461 - digeser kiri supaya bebas ikon
 GOLD, WHITE, OUTL = "#ffd23f", "#ffffff", "#000000"
 FONT = "/usr/share/fonts/opentype/inter/Inter-Black.otf"
 EMOJI_F = "/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf"
-CAP_SZ, HOOK_SZ, STROKE = 64, 104, 7
-MAXW = W - 2 * SAFE_X - 40
+CAP_SZ, HOOK_SZ, STROKE = 58, 86, 7
+MAXW = ICON_X - SAFE_X - 20          # 762
 D = "work/cap"
 
 data = json.load(open("work/captions.json"))
@@ -64,7 +69,7 @@ def draw_block(tokens, font, bottom_y, size):
     lh = round(size * 1.18)
     y = bottom_y - len(lines) * lh
     for toks, cw in lines:
-        x = (W - cw) / 2
+        x = CENTER_X - cw / 2
         for (tok, tw) in toks:
             if tok[0] == "<emoji>":
                 em = emoji_img(tok[1], round(size * 0.95))
@@ -84,7 +89,7 @@ hk = data["hook"]
 toks = []
 for ln in hk["lines"]:
     toks += [(w, GOLD if ln["key"] else WHITE) for w in ln["t"].split()]
-draw_block(toks, fnt_h, 1390, HOOK_SZ).save(f"{D}/hook.png")
+draw_block(toks, fnt_h, 1300, HOOK_SZ).save(f"{D}/hook.png")
 items.append((f"{D}/hook.png", hk["start"], hk["end"]))
 
 for i, c in enumerate(data["captions"]):
@@ -99,16 +104,16 @@ for i, c in enumerate(data["captions"]):
 OUTRO_T = 49.58
 cta = Image.new("RGBA", (W, H), (0, 0, 0, 0))
 dc = ImageDraw.Draw(cta)
-f_cta = ImageFont.truetype(FONT, 58)
+f_cta = ImageFont.truetype(FONT, 52)
 label = "CHECK OUT SEKARANG"
 tw = dc.textlength(label, font=f_cta)
-em = emoji_img("\U0001F6D2", 56)
+em = emoji_img("\U0001F6D2", 50)
 gap, ew = 18, (em.width if em else 0)
 total = tw + gap + ew
-pad_x, pad_y, top = 44, 26, 1150
-box = [(W - total) / 2 - pad_x, top, (W + total) / 2 + pad_x, top + 58 + 2 * pad_y]
-dc.rounded_rectangle(box, radius=58, fill=(16, 16, 18, 232), outline=(255, 210, 63, 255), width=4)
-x0 = (W - total) / 2
+pad_x, pad_y, top = 40, 24, 1120
+box = [CENTER_X - total / 2 - pad_x, top, CENTER_X + total / 2 + pad_x, top + 52 + 2 * pad_y]
+dc.rounded_rectangle(box, radius=52, fill=(16, 16, 18, 232), outline=(255, 210, 63, 255), width=4)
+x0 = CENTER_X - total / 2
 dc.text((x0, top + pad_y - 4), label, font=f_cta, fill=GOLD)
 if em:
     cta.alpha_composite(em, (round(x0 + tw + gap), round(top + pad_y)))
