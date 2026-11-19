@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Launcher: pakai venv repo kalau ada, kalau nggak fallback ke python3 sistem.
+set -euo pipefail
+here="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+py="$here/.venv/bin/python"
+[ -x "$py" ] || py="$(command -v python3)"
+exec "$py" "$here/transcribe.py" "$@"
