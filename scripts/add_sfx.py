@@ -4,17 +4,17 @@ import subprocess, sys, os
 
 SFX = "/root/.claude/skills/video-edit/assets/template/assets/sfx"
 # (waktu, berkas, gain)  -- hanya di momen kunci, bukan tiap caption
-EV = [
-    (0.00,  "whoosh-short", 0.26),   # masuk hook
-    (2.06,  "click-soft",   0.20),   # potong ke intro
-    (12.10, "pop",          0.22),   # 45 cm / 50 bibit
-    (19.54, "pop",          0.22),   # 5 kolam galon
-    (21.96, "pop",          0.20),   # 60 cm / isi 60
-    (30.82, "sparkle",      0.18),   # 0%
-    (37.50, "sparkle",      0.18),   # protein 39%
-    (46.60, "pop",          0.22),   # 200 bibit
-    (49.60, "click",        0.18),   # kartu CTA muncul
-    (52.14, "impact-bass-1", 0.28),  # CTA akhir
+EV = [   # gaya E: waktu hasil = waktu sumber + 2.30
+    (0.90,  "pop",           0.22),   # hook: "5 kolam galon"
+    (2.30,  "whoosh-short",  0.26),   # crossfade hook -> video asli
+    (14.12, "pop",           0.22),   # 45 cm
+    (23.88, "pop",           0.22),   # 5 kolam galon (ucapan asli)
+    (27.94, "pop",           0.20),   # isi 60
+    (38.56, "sparkle",       0.18),   # 0%
+    (45.24, "sparkle",       0.18),   # protein 39%
+    (55.18, "pop",           0.22),   # 200 bibit
+    (58.00, "click",         0.18),   # kartu CTA muncul
+    (60.34, "impact-bass-1", 0.28),   # "Check out sekarang"
 ]
 SRC = sys.argv[1] if len(sys.argv) > 1 else "work/styled.mp4"
 OUT = sys.argv[2] if len(sys.argv) > 2 else "work/final_master.mp4"

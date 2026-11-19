@@ -37,7 +37,7 @@ data = json.load(open("work/captions.json"))
 items = [("work/cap/hook.png", data["hook"]["start"], data["hook"]["end"])]
 for i, c in enumerate(data["captions"]):
     items.append((f"work/cap/c{i:03d}.png", c["start"], c["end"]))
-items.append(("work/cap/outro.png", 49.58, 99))
+items.append(("work/cap/outro.png", 58.0, 99))
 for p, _, _ in items:
     if not os.path.exists(p):
         sys.exit(f"PNG caption hilang: {p} - jalankan render_captions.py dulu")

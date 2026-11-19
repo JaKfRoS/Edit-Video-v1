@@ -10,18 +10,26 @@ Koreksi hanya untuk artefak transkrip, bukan mengubah ucapan talent.
 """
 import json, re
 
-HOOK_END = 2.04
+HOOK_END = 2.30      # gaya E: video asli mulai di 2.30 (crossfade)
 FIX = {          # koreksi artefak transkrip saja - ucapan talent tidak diubah
     "leleh": "lele", "Leleh": "Lele",
     "spil": "spill",
-    "Tokamire": "toko kami",      # dikonfirmasi: yang diucapkan "toko kami"
+    "Tokamire": "toko kami",      # dikonfirmasi klien: "toko kami"
 }
+BYTIME = {        # koreksi per kata (waktu hasil = sumber + 2.30), dikonfirmasi klien / pengenalan ke-2
+    56.80 + 2.30: "ready",       # "di stok" -> "ready stok" (transkrip ke-2: "ready")
+    51.20 + 2.30: "1 meter",     # "diameter 1" = 1 meter (dikonfirmasi klien)
+}
+NOBREAK = {"diameter", "tinggi", "kapasitas", "isi", "yang", "di", "dengan", "atau", "dari", "untuk", "mau", "dan", "setara", "ready"}
 UNITS = {"cm", "%", "meter", "m"}
 
 W = [w for w in json.load(open("work/words_aroll.json"))["words"] if w["start"] >= HOOK_END - 1e-6]
 toks = []
 for w in W:
     t = w["word"].strip()
+    for tt, rep in BYTIME.items():
+        if abs(w["start"] - tt) < 0.02:
+            t = rep + "".join(c for c in t if c in ".,?!")
     t = FIX.get(t.strip(".,?!"), t.strip(".,?!")) + "".join(c for c in t if c in ".,?!")
     # token yang diawali "-" (mis. "-kolam") disatukan ke token sebelumnya
     if t.startswith("-") and toks:
@@ -32,7 +40,7 @@ for w in W:
 
 def is_key(t):
     s = re.sub(r"[^\w%]", "", t).upper()
-    return bool(re.fullmatch(r"\d+%?", s) or s in {"PF1000"})
+    return bool(re.fullmatch(r"\d+%?", s) or s in {"PF1000", "1METER"})
 
 EMOJI = {"galon": "🪣", "0%": "✅", "39%": "💪", "200": "🐟",
          "praktis": "⚡", "sortir": "🎯", "check out": "🛒"}
@@ -49,7 +57,11 @@ for i, tk in enumerate(toks):
                     and not re.search(r"[.?!,]$", tk["t"]))
     # jangan pisahkan angka dari satuannya
     glue = bool(nxt and re.fullmatch(r"\d+", tk["t"].strip(".,")) and nxt["t"].strip(".,").lower() in UNITS)
-    brk = end_sent or nxt is None or (not glue and (new_sent or len(cur) >= MAXW or len(txt) >= MAXC))
+    # jangan putus setelah kata sambung/pembuka spesifikasi, dan "ya." menempel ke frasa sebelumnya
+    orphan = bool(nxt and re.search(r"[.?!]$", nxt["t"]) and len(cur) >= 3)   # satu kata sendirian di ujung kalimat
+    hang = (tk["t"].strip(".,?!").lower() in NOBREAK or orphan or (nxt and nxt["t"].strip(".,?!").lower() == "ya")) \
+        and not end_sent and len(cur) < MAXW + 2
+    brk = end_sent or nxt is None or (not glue and not hang and (new_sent or len(cur) >= MAXW or len(txt) >= MAXC))
     if not brk:
         continue
     caps.append({"start": round(cur[0]["start"], 3), "end": round(cur[-1]["end"] + 0.06, 3),
@@ -65,7 +77,7 @@ for i, c in enumerate(caps):
     low = c["text"].lower()
     c["emoji"] = next((e for k, e in EMOJI.items() if k in low), None)
 
-hook = {"start": 0.0, "end": HOOK_END,
+hook = {"start": 0.0, "end": HOOK_END - 0.05,
         "lines": [{"t": "SETARA", "key": False}, {"t": "5 KOLAM GALON", "key": True}]}
 json.dump({"hook": hook, "captions": caps}, open("work/captions.json", "w"),
           ensure_ascii=False, indent=1)

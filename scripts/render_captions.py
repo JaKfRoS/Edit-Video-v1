@@ -101,7 +101,7 @@ for i, c in enumerate(data["captions"]):
     items.append((p, c["start"], c["end"]))
 
 # ---- kartu CTA penutup (3.3s terakhir) ----
-OUTRO_T = 49.58
+OUTRO_T = 58.0
 cta = Image.new("RGBA", (W, H), (0, 0, 0, 0))
 dc = ImageDraw.Draw(cta)
 f_cta = ImageFont.truetype(FONT, 52)
