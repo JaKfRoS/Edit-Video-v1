@@ -1,0 +1,1107 @@
+{
+  "source": "work_mentah1/audio.wav",
+  "model": "large-v3",
+  "language": "id",
+  "language_probability": 1,
+  "duration": 59.2413125,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.02,
+      "text": " pemula yang ingin belajar budidaya atau",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.58,
+          "word": " pemula",
+          "prob": 0.627
+        },
+        {
+          "start": 0.58,
+          "end": 0.78,
+          "word": " yang",
+          "prob": 0.995
+        },
+        {
+          "start": 0.78,
+          "end": 1.06,
+          "word": " ingin",
+          "prob": 0.776
+        },
+        {
+          "start": 1.06,
+          "end": 1.42,
+          "word": " belajar",
+          "prob": 0.999
+        },
+        {
+          "start": 1.42,
+          "end": 1.78,
+          "word": " budidaya",
+          "prob": 0.839
+        },
+        {
+          "start": 1.78,
+          "end": 2.02,
+          "word": " atau",
+          "prob": 0.985
+        }
+      ]
+    },
+    {
+      "start": 2.02,
+      "end": 4.1,
+      "text": " ternak ikan dari rumah, ini kita kasih",
+      "words": [
+        {
+          "start": 2.02,
+          "end": 2.48,
+          "word": " ternak",
+          "prob": 0.981
+        },
+        {
+          "start": 2.48,
+          "end": 2.78,
+          "word": " ikan",
+          "prob": 0.999
+        },
+        {
+          "start": 2.78,
+          "end": 2.94,
+          "word": " dari",
+          "prob": 0.998
+        },
+        {
+          "start": 2.94,
+          "end": 3.2,
+          "word": " rumah,",
+          "prob": 0.999
+        },
+        {
+          "start": 3.4,
+          "end": 3.78,
+          "word": " ini",
+          "prob": 0.834
+        },
+        {
+          "start": 3.78,
+          "end": 3.92,
+          "word": " kita",
+          "prob": 0.766
+        },
+        {
+          "start": 3.92,
+          "end": 4.1,
+          "word": " kasih",
+          "prob": 0.997
+        }
+      ]
+    },
+    {
+      "start": 4.1,
+      "end": 6.34,
+      "text": " spil beberapa ukuran",
+      "words": [
+        {
+          "start": 4.1,
+          "end": 4.42,
+          "word": " spil",
+          "prob": 0.761
+        },
+        {
+          "start": 4.42,
+          "end": 5.04,
+          "word": " beberapa",
+          "prob": 0.999
+        },
+        {
+          "start": 5.04,
+          "end": 6.34,
+          "word": " ukuran",
+          "prob": 1.0
+        }
+      ]
+    },
+    {
+      "start": 6.34,
+      "end": 8.26,
+      "text": " kapasitas dan juga ketahanan",
+      "words": [
+        {
+          "start": 6.34,
+          "end": 6.86,
+          "word": " kapasitas",
+          "prob": 0.994
+        },
+        {
+          "start": 6.86,
+          "end": 7.2,
+          "word": " dan",
+          "prob": 0.998
+        },
+        {
+          "start": 7.2,
+          "end": 7.54,
+          "word": " juga",
+          "prob": 0.999
+        },
+        {
+          "start": 7.54,
+          "end": 8.26,
+          "word": " ketahanan",
+          "prob": 1.0
+        }
+      ]
+    },
+    {
+      "start": 8.26,
+      "end": 9.8,
+      "text": " dari kolam-kolam kami. Pertama,",
+      "words": [
+        {
+          "start": 8.26,
+          "end": 8.46,
+          "word": " dari",
+          "prob": 1.0
+        },
+        {
+          "start": 8.46,
+          "end": 8.74,
+          "word": " kolam",
+          "prob": 0.998
+        },
+        {
+          "start": 8.74,
+          "end": 8.92,
+          "word": "-kolam",
+          "prob": 0.994
+        },
+        {
+          "start": 8.92,
+          "end": 9.08,
+          "word": " kami.",
+          "prob": 1.0
+        },
+        {
+          "start": 9.26,
+          "end": 9.8,
+          "word": " Pertama,",
+          "prob": 0.997
+        }
+      ]
+    },
+    {
+      "start": 10.56,
+      "end": 12.4,
+      "text": " diameter 60 tinggi 45 cm",
+      "words": [
+        {
+          "start": 10.56,
+          "end": 10.9,
+          "word": " diameter",
+          "prob": 0.864
+        },
+        {
+          "start": 10.9,
+          "end": 11.44,
+          "word": " 60",
+          "prob": 0.982
+        },
+        {
+          "start": 11.44,
+          "end": 11.82,
+          "word": " tinggi",
+          "prob": 0.625
+        },
+        {
+          "start": 11.82,
+          "end": 12.08,
+          "word": " 45",
+          "prob": 0.995
+        },
+        {
+          "start": 12.08,
+          "end": 12.4,
+          "word": " cm",
+          "prob": 0.971
+        }
+      ]
+    },
+    {
+      "start": 12.4,
+      "end": 13.86,
+      "text": " kapasitas 50 bibit leleh",
+      "words": [
+        {
+          "start": 12.4,
+          "end": 12.9,
+          "word": " kapasitas",
+          "prob": 0.813
+        },
+        {
+          "start": 12.9,
+          "end": 13.18,
+          "word": " 50",
+          "prob": 0.999
+        },
+        {
+          "start": 13.18,
+          "end": 13.62,
+          "word": " bibit",
+          "prob": 0.869
+        },
+        {
+          "start": 13.62,
+          "end": 13.86,
+          "word": " leleh",
+          "prob": 0.718
+        }
+      ]
+    },
+    {
+      "start": 13.86,
+      "end": 15.9,
+      "text": " setara dengan 5 kolam galon.",
+      "words": [
+        {
+          "start": 13.86,
+          "end": 14.5,
+          "word": " setara",
+          "prob": 0.988
+        },
+        {
+          "start": 14.5,
+          "end": 14.72,
+          "word": " dengan",
+          "prob": 1.0
+        },
+        {
+          "start": 14.72,
+          "end": 15.08,
+          "word": " 5",
+          "prob": 0.996
+        },
+        {
+          "start": 15.08,
+          "end": 15.54,
+          "word": " kolam",
+          "prob": 1.0
+        },
+        {
+          "start": 15.54,
+          "end": 15.9,
+          "word": " galon.",
+          "prob": 0.996
+        }
+      ]
+    },
+    {
+      "start": 15.96,
+      "end": 18.08,
+      "text": " Lebih praktis, kerawatnya sekali doang,",
+      "words": [
+        {
+          "start": 15.96,
+          "end": 16.28,
+          "word": " Lebih",
+          "prob": 1.0
+        },
+        {
+          "start": 16.28,
+          "end": 16.8,
+          "word": " praktis,",
+          "prob": 1.0
+        },
+        {
+          "start": 16.8,
+          "end": 17.28,
+          "word": " kerawatnya",
+          "prob": 0.774
+        },
+        {
+          "start": 17.28,
+          "end": 17.5,
+          "word": " sekali",
+          "prob": 0.996
+        },
+        {
+          "start": 17.5,
+          "end": 18.08,
+          "word": " doang,",
+          "prob": 1.0
+        }
+      ]
+    },
+    {
+      "start": 18.08,
+      "end": 19.9,
+      "text": " ngurasnya sekali doang, panennya sekali",
+      "words": [
+        {
+          "start": 18.08,
+          "end": 18.44,
+          "word": " ngurasnya",
+          "prob": 0.9
+        },
+        {
+          "start": 18.44,
+          "end": 18.68,
+          "word": " sekali",
+          "prob": 0.999
+        },
+        {
+          "start": 18.68,
+          "end": 19.1,
+          "word": " doang,",
+          "prob": 1.0
+        },
+        {
+          "start": 19.1,
+          "end": 19.64,
+          "word": " panennya",
+          "prob": 0.998
+        },
+        {
+          "start": 19.64,
+          "end": 19.9,
+          "word": " sekali",
+          "prob": 0.999
+        }
+      ]
+    },
+    {
+      "start": 19.9,
+      "end": 22.62,
+      "text": " setara dengan merawat 5 kolam galon.",
+      "words": [
+        {
+          "start": 19.9,
+          "end": 20.74,
+          "word": " setara",
+          "prob": 0.973
+        },
+        {
+          "start": 20.74,
+          "end": 21.02,
+          "word": " dengan",
+          "prob": 1.0
+        },
+        {
+          "start": 21.02,
+          "end": 21.58,
+          "word": " merawat",
+          "prob": 0.861
+        },
+        {
+          "start": 21.58,
+          "end": 21.82,
+          "word": " 5",
+          "prob": 0.999
+        },
+        {
+          "start": 21.82,
+          "end": 22.3,
+          "word": " kolam",
+          "prob": 1.0
+        },
+        {
+          "start": 22.3,
+          "end": 22.62,
+          "word": " galon.",
+          "prob": 0.999
+        }
+      ]
+    },
+    {
+      "start": 23.04,
+      "end": 24.08,
+      "text": " Mau diameter 60",
+      "words": [
+        {
+          "start": 23.04,
+          "end": 23.38,
+          "word": " Mau",
+          "prob": 0.973
+        },
+        {
+          "start": 23.38,
+          "end": 23.6,
+          "word": " diameter",
+          "prob": 0.999
+        },
+        {
+          "start": 23.6,
+          "end": 24.08,
+          "word": " 60",
+          "prob": 0.999
+        }
+      ]
+    },
+    {
+      "start": 24.08,
+      "end": 25.86,
+      "text": " tinggi 60 cm, isi 60",
+      "words": [
+        {
+          "start": 24.08,
+          "end": 24.54,
+          "word": " tinggi",
+          "prob": 0.995
+        },
+        {
+          "start": 24.54,
+          "end": 24.76,
+          "word": " 60",
+          "prob": 0.996
+        },
+        {
+          "start": 24.76,
+          "end": 25.12,
+          "word": " cm,",
+          "prob": 1.0
+        },
+        {
+          "start": 25.26,
+          "end": 25.64,
+          "word": " isi",
+          "prob": 1.0
+        },
+        {
+          "start": 25.64,
+          "end": 25.86,
+          "word": " 60",
+          "prob": 0.999
+        }
+      ]
+    },
+    {
+      "start": 25.86,
+      "end": 27.96,
+      "text": " leleh sampai panen tanpa sortir",
+      "words": [
+        {
+          "start": 25.86,
+          "end": 26.4,
+          "word": " leleh",
+          "prob": 0.965
+        },
+        {
+          "start": 26.4,
+          "end": 26.62,
+          "word": " sampai",
+          "prob": 0.997
+        },
+        {
+          "start": 26.62,
+          "end": 27.18,
+          "word": " panen",
+          "prob": 0.999
+        },
+        {
+          "start": 27.18,
+          "end": 27.68,
+          "word": " tanpa",
+          "prob": 0.996
+        },
+        {
+          "start": 27.68,
+          "end": 27.96,
+          "word": " sortir",
+          "prob": 0.966
+        }
+      ]
+    },
+    {
+      "start": 27.96,
+      "end": 30.06,
+      "text": " bisa. Bang, nanti terjadi",
+      "words": [
+        {
+          "start": 27.96,
+          "end": 28.2,
+          "word": " bisa.",
+          "prob": 0.108
+        },
+        {
+          "start": 28.86,
+          "end": 29.44,
+          "word": " Bang,",
+          "prob": 0.975
+        },
+        {
+          "start": 29.5,
+          "end": 29.74,
+          "word": " nanti",
+          "prob": 1.0
+        },
+        {
+          "start": 29.74,
+          "end": 30.06,
+          "word": " terjadi",
+          "prob": 0.999
+        }
+      ]
+    },
+    {
+      "start": 30.06,
+      "end": 32.0,
+      "text": " kanibalisme? Enggak. Tingkat",
+      "words": [
+        {
+          "start": 30.06,
+          "end": 30.58,
+          "word": " kanibalisme?",
+          "prob": 0.978
+        },
+        {
+          "start": 30.66,
+          "end": 30.86,
+          "word": " Enggak.",
+          "prob": 0.962
+        },
+        {
+          "start": 31.42,
+          "end": 32.0,
+          "word": " Tingkat",
+          "prob": 0.999
+        }
+      ]
+    },
+    {
+      "start": 32.0,
+      "end": 33.82,
+      "text": " kanibalisme itu bisa ditekan. Kalau",
+      "words": [
+        {
+          "start": 32.0,
+          "end": 32.56,
+          "word": " kanibalisme",
+          "prob": 0.999
+        },
+        {
+          "start": 32.56,
+          "end": 32.68,
+          "word": " itu",
+          "prob": 0.998
+        },
+        {
+          "start": 32.68,
+          "end": 32.9,
+          "word": " bisa",
+          "prob": 0.999
+        },
+        {
+          "start": 32.9,
+          "end": 33.34,
+          "word": " ditekan.",
+          "prob": 0.999
+        },
+        {
+          "start": 33.5,
+          "end": 33.82,
+          "word": " Kalau",
+          "prob": 0.996
+        }
+      ]
+    },
+    {
+      "start": 33.82,
+      "end": 35.52,
+      "text": " ikannya cuma sedikit, bahkan bisa",
+      "words": [
+        {
+          "start": 33.82,
+          "end": 34.14,
+          "word": " ikannya",
+          "prob": 0.995
+        },
+        {
+          "start": 34.14,
+          "end": 34.3,
+          "word": " cuma",
+          "prob": 0.993
+        },
+        {
+          "start": 34.3,
+          "end": 34.76,
+          "word": " sedikit,",
+          "prob": 1.0
+        },
+        {
+          "start": 34.78,
+          "end": 35.14,
+          "word": " bahkan",
+          "prob": 1.0
+        },
+        {
+          "start": 35.14,
+          "end": 35.52,
+          "word": " bisa",
+          "prob": 1.0
+        }
+      ]
+    },
+    {
+      "start": 35.52,
+      "end": 37.86,
+      "text": " dijadikan 0%. Asal perlakuan",
+      "words": [
+        {
+          "start": 35.52,
+          "end": 36.26,
+          "word": " dijadikan",
+          "prob": 1.0
+        },
+        {
+          "start": 36.26,
+          "end": 36.76,
+          "word": " 0%.",
+          "prob": 0.827
+        },
+        {
+          "start": 36.76,
+          "end": 37.42,
+          "word": " Asal",
+          "prob": 1.0
+        },
+        {
+          "start": 37.42,
+          "end": 37.86,
+          "word": " perlakuan",
+          "prob": 0.995
+        }
+      ]
+    },
+    {
+      "start": 37.86,
+      "end": 39.62,
+      "text": " makan di bulan pertama menggunakan",
+      "words": [
+        {
+          "start": 37.86,
+          "end": 38.08,
+          "word": " makan",
+          "prob": 0.713
+        },
+        {
+          "start": 38.08,
+          "end": 38.36,
+          "word": " di",
+          "prob": 0.999
+        },
+        {
+          "start": 38.36,
+          "end": 38.76,
+          "word": " bulan",
+          "prob": 1.0
+        },
+        {
+          "start": 38.76,
+          "end": 39.02,
+          "word": " pertama",
+          "prob": 1.0
+        },
+        {
+          "start": 39.02,
+          "end": 39.62,
+          "word": " menggunakan",
+          "prob": 0.949
+        }
+      ]
+    },
+    {
+      "start": 39.62,
+      "end": 41.24,
+      "text": " PF1000, butiran lebih kecil,",
+      "words": [
+        {
+          "start": 39.62,
+          "end": 40.04,
+          "word": " PF1000,",
+          "prob": 0.828
+        },
+        {
+          "start": 40.32,
+          "end": 40.54,
+          "word": " butiran",
+          "prob": 0.89
+        },
+        {
+          "start": 40.54,
+          "end": 40.74,
+          "word": " lebih",
+          "prob": 1.0
+        },
+        {
+          "start": 40.74,
+          "end": 41.24,
+          "word": " kecil,",
+          "prob": 1.0
+        }
+      ]
+    },
+    {
+      "start": 42.11,
+      "end": 43.72,
+      "text": " protein lebih tinggi 39%,",
+      "words": [
+        {
+          "start": 42.11,
+          "end": 42.4,
+          "word": " protein",
+          "prob": 0.999
+        },
+        {
+          "start": 42.4,
+          "end": 42.62,
+          "word": " lebih",
+          "prob": 1.0
+        },
+        {
+          "start": 42.62,
+          "end": 42.94,
+          "word": " tinggi",
+          "prob": 1.0
+        },
+        {
+          "start": 42.94,
+          "end": 43.72,
+          "word": " 39%,",
+          "prob": 0.972
+        }
+      ]
+    },
+    {
+      "start": 43.72,
+      "end": 45.86,
+      "text": " teman-teman bisa check out untuk skala",
+      "words": [
+        {
+          "start": 43.72,
+          "end": 44.26,
+          "word": " teman",
+          "prob": 0.977
+        },
+        {
+          "start": 44.26,
+          "end": 44.34,
+          "word": "-teman",
+          "prob": 0.999
+        },
+        {
+          "start": 44.34,
+          "end": 44.48,
+          "word": " bisa",
+          "prob": 0.998
+        },
+        {
+          "start": 44.48,
+          "end": 44.74,
+          "word": " check",
+          "prob": 0.971
+        },
+        {
+          "start": 44.74,
+          "end": 44.92,
+          "word": " out",
+          "prob": 0.972
+        },
+        {
+          "start": 44.92,
+          "end": 45.32,
+          "word": " untuk",
+          "prob": 1.0
+        },
+        {
+          "start": 45.32,
+          "end": 45.86,
+          "word": " skala",
+          "prob": 0.997
+        }
+      ]
+    },
+    {
+      "start": 45.86,
+      "end": 47.86,
+      "text": " rumahan atau yang lagi mau belajar",
+      "words": [
+        {
+          "start": 45.86,
+          "end": 46.32,
+          "word": " rumahan",
+          "prob": 0.994
+        },
+        {
+          "start": 46.32,
+          "end": 46.66,
+          "word": " atau",
+          "prob": 0.99
+        },
+        {
+          "start": 46.66,
+          "end": 46.98,
+          "word": " yang",
+          "prob": 1.0
+        },
+        {
+          "start": 46.98,
+          "end": 47.24,
+          "word": " lagi",
+          "prob": 1.0
+        },
+        {
+          "start": 47.24,
+          "end": 47.46,
+          "word": " mau",
+          "prob": 1.0
+        },
+        {
+          "start": 47.46,
+          "end": 47.86,
+          "word": " belajar",
+          "prob": 1.0
+        }
+      ]
+    },
+    {
+      "start": 47.86,
+      "end": 49.9,
+      "text": " ternak ikan. Atau pakai",
+      "words": [
+        {
+          "start": 47.86,
+          "end": 48.2,
+          "word": " ternak",
+          "prob": 0.789
+        },
+        {
+          "start": 48.2,
+          "end": 48.52,
+          "word": " ikan.",
+          "prob": 0.93
+        },
+        {
+          "start": 49.08,
+          "end": 49.66,
+          "word": " Atau",
+          "prob": 0.989
+        },
+        {
+          "start": 49.66,
+          "end": 49.9,
+          "word": " pakai",
+          "prob": 0.974
+        }
+      ]
+    },
+    {
+      "start": 49.9,
+      "end": 51.94,
+      "text": " yang lebih besar, diameter 1 tinggi",
+      "words": [
+        {
+          "start": 49.9,
+          "end": 50.1,
+          "word": " yang",
+          "prob": 1.0
+        },
+        {
+          "start": 50.1,
+          "end": 50.26,
+          "word": " lebih",
+          "prob": 1.0
+        },
+        {
+          "start": 50.26,
+          "end": 50.56,
+          "word": " besar,",
+          "prob": 1.0
+        },
+        {
+          "start": 50.68,
+          "end": 51.2,
+          "word": " diameter",
+          "prob": 0.994
+        },
+        {
+          "start": 51.2,
+          "end": 51.52,
+          "word": " 1",
+          "prob": 0.979
+        },
+        {
+          "start": 51.52,
+          "end": 51.94,
+          "word": " tinggi",
+          "prob": 0.607
+        }
+      ]
+    },
+    {
+      "start": 51.94,
+      "end": 53.96,
+      "text": " 60 cm, kapasitas 200 bibit leleh",
+      "words": [
+        {
+          "start": 51.94,
+          "end": 52.22,
+          "word": " 60",
+          "prob": 0.998
+        },
+        {
+          "start": 52.22,
+          "end": 52.44,
+          "word": " cm,",
+          "prob": 0.973
+        },
+        {
+          "start": 52.56,
+          "end": 52.88,
+          "word": " kapasitas",
+          "prob": 1.0
+        },
+        {
+          "start": 52.88,
+          "end": 53.16,
+          "word": " 200",
+          "prob": 0.998
+        },
+        {
+          "start": 53.16,
+          "end": 53.76,
+          "word": " bibit",
+          "prob": 0.813
+        },
+        {
+          "start": 53.76,
+          "end": 53.96,
+          "word": " leleh",
+          "prob": 0.185
+        }
+      ]
+    },
+    {
+      "start": 53.96,
+      "end": 55.62,
+      "text": " sampai panen sortir, bisa",
+      "words": [
+        {
+          "start": 53.96,
+          "end": 54.16,
+          "word": " sampai",
+          "prob": 0.976
+        },
+        {
+          "start": 54.16,
+          "end": 54.5,
+          "word": " panen",
+          "prob": 0.977
+        },
+        {
+          "start": 54.5,
+          "end": 54.7,
+          "word": " sortir,",
+          "prob": 0.95
+        },
+        {
+          "start": 54.94,
+          "end": 55.62,
+          "word": " bisa",
+          "prob": 1.0
+        }
+      ]
+    },
+    {
+      "start": 55.62,
+      "end": 57.7,
+      "text": " di check out di Tokamire, di stok setiap",
+      "words": [
+        {
+          "start": 55.62,
+          "end": 55.86,
+          "word": " di",
+          "prob": 0.956
+        },
+        {
+          "start": 55.86,
+          "end": 56.08,
+          "word": " check",
+          "prob": 0.633
+        },
+        {
+          "start": 56.08,
+          "end": 56.2,
+          "word": " out",
+          "prob": 1.0
+        },
+        {
+          "start": 56.2,
+          "end": 56.32,
+          "word": " di",
+          "prob": 0.712
+        },
+        {
+          "start": 56.32,
+          "end": 56.78,
+          "word": " Tokamire,",
+          "prob": 0.734
+        },
+        {
+          "start": 56.8,
+          "end": 57.0,
+          "word": " di",
+          "prob": 0.984
+        },
+        {
+          "start": 57.0,
+          "end": 57.34,
+          "word": " stok",
+          "prob": 0.787
+        },
+        {
+          "start": 57.34,
+          "end": 57.7,
+          "word": " setiap",
+          "prob": 0.999
+        }
+      ]
+    },
+    {
+      "start": 57.7,
+      "end": 58.62,
+      "text": " hari ya. Check out sekarang.",
+      "words": [
+        {
+          "start": 57.7,
+          "end": 57.84,
+          "word": " hari",
+          "prob": 0.434
+        },
+        {
+          "start": 57.84,
+          "end": 58.0,
+          "word": " ya.",
+          "prob": 0.913
+        },
+        {
+          "start": 58.04,
+          "end": 58.3,
+          "word": " Check",
+          "prob": 0.994
+        },
+        {
+          "start": 58.3,
+          "end": 58.42,
+          "word": " out",
+          "prob": 0.943
+        },
+        {
+          "start": 58.42,
+          "end": 58.62,
+          "word": " sekarang.",
+          "prob": 0.999
+        }
+      ]
+    }
+  ]
+}
